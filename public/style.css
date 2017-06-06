@@ -19,7 +19,8 @@ a:hover, a:visited, a:link, a:active {
   width: 250px;
   height: 150px;
   margin: 10px;
-  /* display: flex; */
+  display: flex;
+  flex: 1 1 28%;
   background-color: dodgerblue;
   position: relative;
   display: block;
