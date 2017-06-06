@@ -13,14 +13,16 @@ a:hover, a:visited, a:link, a:active {
 
 .alphabet-container {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .letter-content {
 
   width: 250px;
   height: 150px;
   margin: 10px;
-  display: flex;
-  flex: 1 1 28%;
   background-color: dodgerblue;
   position: relative;
   display: block;
